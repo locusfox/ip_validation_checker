@@ -1,0 +1,25 @@
+{
+  "name": "ip_validation_checker",
+  "version": "1.0.0",
+  "description": "Checks IPv4 address' to see if they are valid or not",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "npm run build && node ./out/checker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locusfox/ip_validation_checker.git"
+  },
+  "keywords": [],
+  "author": "locusfox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/locusfox/ip_validation_checker/issues"
+  },
+  "homepage": "https://github.com/locusfox/ip_validation_checker#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
